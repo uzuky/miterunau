@@ -1,10 +1,3 @@
-/*
- * @title みてるなう
- * @description Twitterにページをつぶやくブックマークレット  なんやかんや問題がありそうなのでURLの＃以降をエスケープするようにしてます しないのはこっち http://let.hatelabo.jp/uzuky/let/hLHUpOmN5p4v
- * @include http://*
- * @license MIT License
- */
-
 javascript: (function(){
 	var c = prompt('コメントを入力してください','みてるなう');
 	if(c == null){
